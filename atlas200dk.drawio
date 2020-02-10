@@ -1,1 +1,68 @@
-<mxfile host="www.draw.io" modified="2020-02-10T08:44:13.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="2LCIRq3TUql7YO5Gx7v9" version="12.6.6" type="github"><diagram id="fSfdhk-J6Cga5nlAEZ6R" name="Page-1">dZHBDoIwDIafZnfYjOgZUS6eOHheWGVLBiVjBvTphWwTFzTpof32d//aEZa308XwXl5RgCY0ERNhJ0JpuqOULJGIpyPZ/uhAY5TwohVU6gUeJp4+lIAhElpEbVUfwxq7DmobMW4MjrHsjjp27XkDG1DVXG/pTQkrHT3QbOUlqEYG5zTM1/Ig9pMMkgscvxArCMsNonVZO+Wgl+WFvbi+85/Tz8MMdPZHw5ysd89F9EOseAM=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-10T08:53:04.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="NML4XHIQ-LbpCkGW3tcA" version="12.6.6" type="github">
+  <diagram id="fSfdhk-J6Cga5nlAEZ6R" name="Page-1">
+    <mxGraphModel dx="1422" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bxCUPFYQevfVHZbY3yWX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-1" value="图片文件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bxCUPFYQevfVHZbY3yWX-4" target="bxCUPFYQevfVHZbY3yWX-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-4" value="OPENCV读取图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bxCUPFYQevfVHZbY3yWX-5" target="bxCUPFYQevfVHZbY3yWX-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-5" value="DVPP裁剪图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bxCUPFYQevfVHZbY3yWX-7" target="bxCUPFYQevfVHZbY3yWX-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-7" value="AIPP图片预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bxCUPFYQevfVHZbY3yWX-14" target="bxCUPFYQevfVHZbY3yWX-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-14" value="调用GRAPH，简答一点，就一个推理ENGINE，一个输出ENGINE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bxCUPFYQevfVHZbY3yWX-17" target="bxCUPFYQevfVHZbY3yWX-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="620"/>
+              <mxPoint x="380" y="620"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-17" value="调用推理函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="bxCUPFYQevfVHZbY3yWX-19" target="bxCUPFYQevfVHZbY3yWX-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-19" value="输出结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="285" width="360" height="410" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-22" value="推理ENGINE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="bxCUPFYQevfVHZbY3yWX-23" value="写结果文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
