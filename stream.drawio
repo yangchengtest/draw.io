@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-19T04:26:30.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="UV-XquNrX7KImiIuzy-7" version="12.7.1" type="github">
+<mxfile host="www.draw.io" modified="2020-02-19T12:04:04.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="bofDcBwH8-XkEAZPX5B0" version="12.7.1" type="github">
   <diagram id="OZfdtp9g5h2HsJRxFgX0" name="Page-1">
     <mxGraphModel dx="1422" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,6 +204,15 @@
         </mxCell>
         <mxCell id="iyd3BKzEilnLs7ibcpve-98" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="2070" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-99" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-100" value="摄像头预置点库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-101" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
