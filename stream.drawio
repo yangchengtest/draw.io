@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-19T03:27:56.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="OrONiei9u3gux1fhEarb" version="12.7.1" type="github">
+<mxfile host="www.draw.io" modified="2020-02-19T04:26:30.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="UV-XquNrX7KImiIuzy-7" version="12.7.1" type="github">
   <diagram id="OZfdtp9g5h2HsJRxFgX0" name="Page-1">
     <mxGraphModel dx="1422" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,81 @@
         </mxCell>
         <mxCell id="iyd3BKzEilnLs7ibcpve-72" value="标注违规位置，输出违规图片。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-74" target="iyd3BKzEilnLs7ibcpve-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-74" value="卡口图片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-75" target="iyd3BKzEilnLs7ibcpve-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-75" value="算法检测图片中是否有渣土车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-77" target="iyd3BKzEilnLs7ibcpve-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-77" value="算法检测渣土车是否存在违规" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-79" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1470" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-80" value="输出渣土车违规图片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-82" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1570" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-83" target="iyd3BKzEilnLs7ibcpve-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-83" value="车载摄像头" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-84" target="iyd3BKzEilnLs7ibcpve-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-84" value="快速截图（5S一帧）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-86" target="iyd3BKzEilnLs7ibcpve-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-86" value="算法识别图片中是否存在横幅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-88" value="输出有检测到横幅的图片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-90" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-91" target="iyd3BKzEilnLs7ibcpve-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-91" value="街面场景图片" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-92" target="iyd3BKzEilnLs7ibcpve-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-92" value="检测图片里的人员数目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyd3BKzEilnLs7ibcpve-94" target="iyd3BKzEilnLs7ibcpve-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-94" value="判断人员数目是否超过业务配置数目" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-96" value="上报人员聚集告警" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyd3BKzEilnLs7ibcpve-98" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2070" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
